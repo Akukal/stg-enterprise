@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Caslon Text", serif;
+  --font-sans: "Manrope", sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  color: #191c1d;
+  font-family: var(--font-sans), sans-serif;
+}
