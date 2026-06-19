@@ -7,8 +7,8 @@ const NAV_ITEMS = [
   { label: "Home", id: "Hero" },
   { label: "About", id: "AboutSection" },
   { label: "Services", id: "FeaturesSection" },
-  { label: "Portfolio", id: "" },
   { label: "Contact", id: "ContactSection" },
+  { label: "Portfolio", id: "" },
 ];
 
 export default function Header() {
@@ -64,8 +64,8 @@ export default function Header() {
                 key={item.id}
                 href={`#${item.id}`}
                 className={`pb-1 transition-opacity duration-300 hover:opacity-80 ${isActive
-                    ? "text-[#00236f] border-b-2 border-[#00236f]"
-                    : "text-[#444651] hover:text-[#00236f]"
+                  ? "text-[#00236f] border-b-2 border-[#00236f]"
+                  : "text-[#444651] hover:text-[#00236f]"
                   }`}
               >
                 {item.label}
@@ -102,8 +102,8 @@ export default function Header() {
                 href={`#${item.id}`}
                 onClick={() => setIsMenuOpen(false)}
                 className={`pb-1 ${isActive
-                    ? "text-[#00236f]"
-                    : "text-[#444651] hover:text-[#00236f]"
+                  ? "text-[#00236f]"
+                  : "text-[#444651] hover:text-[#00236f]"
                   }`}
               >
                 {item.label}
