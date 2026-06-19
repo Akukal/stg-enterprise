@@ -1,6 +1,6 @@
 export default function FeaturesSection() {
   return (
-    <section className="py-[120px] bg-[#f3f4f5]">
+    <section id="FeaturesSection" className="py-[120px] bg-[#f3f4f5]">
       <div className="max-w-[1280px] mx-auto px-[20px] md:px-[64px]">
         <div className="text-center mb-16">
           <h2 className="font-serif text-[32px] font-semibold text-[#191c1d] mb-4">

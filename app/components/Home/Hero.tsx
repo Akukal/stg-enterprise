@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <section id="#hero" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
             {/* Background image + gradient overlay */}
             <div className="absolute inset-0 z-0">
                 <div

@@ -24,7 +24,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="py-[120px] max-w-[1280px] mx-auto px-[20px] md:px-[64px]">
+    <section id="ContactSection" className="py-[120px] max-w-[1280px] mx-auto px-[20px] md:px-[64px]">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-[24px]">
         {/* Form */}
         <div className="md:col-span-6">

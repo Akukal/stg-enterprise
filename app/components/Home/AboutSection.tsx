@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section className="py-[120px] max-w-[1280px] mx-auto px-[20px] md:px-[64px]">
+    <section id="AboutSection" className="py-[120px] max-w-[1280px] mx-auto px-[20px] md:px-[64px]">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-[24px] items-center">
         <div className="md:col-span-5 md:col-start-2">
           <h2 className="font-serif text-[32px] font-semibold text-[#191c1d] mb-6">
